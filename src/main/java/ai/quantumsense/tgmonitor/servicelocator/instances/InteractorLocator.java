@@ -14,6 +14,7 @@ public class InteractorLocator implements ServiceLocator<Interactor> {
 
     @Override
     public Interactor getService() {
+        System.out.println("InteractorLocator: returning " + instance);
         if (instance == null)
             Util.failNotYetRegistered(this.getClass());
         return instance;
