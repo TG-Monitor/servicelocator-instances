@@ -9,6 +9,7 @@ public class InteractorLocator implements ServiceLocator<Interactor> {
 
     @Override
     public void registerService(Interactor interactor) {
+        System.out.println("InteractorLocator: registering interactor : " + interactor);
         instance = interactor;
     }
 
