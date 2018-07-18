@@ -26,7 +26,7 @@ configurations.all {
 }
 
 dependencies {
-    implementation 'com.github.tg-monitor:servicelocator:master-SNAPSHOT'
-    implementation 'com.github.tg-monitor:monitor:master-SNAPSHOT'
-    implementation 'com.github.tg-monitor:backend:master-SNAPSHOT'
+    implementation 'com.github.tg-monitor:servicelocator:0.0.1'
+    implementation 'com.github.tg-monitor:monitor:0.0.1'
+    implementation 'com.github.tg-monitor:backend:0.0.1'
 }
